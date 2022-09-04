@@ -1,0 +1,22 @@
+{
+    "name": "adaa/laravel-hijri-dates",
+    "description": "Hijri dates package for Laravel",
+    "type": "library",
+    "require": {
+        "php": ">=7|>=8|>=8.1",
+        "geniusts/hijri-dates": "~1.1.0",
+        "illuminate/support": "^5|^6|^7|^8|^9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elteyab Ali",
+            "email": "elteyab@smart.sd"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "GeniusTS\\LaravelHijri\\": "src/"
+        }
+    }
+}
